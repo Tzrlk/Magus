@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>nz.co.aetheric</groupId>
+        <artifactId>magus-parent</artifactId>
+        <relativePath>../parent/pom.xml</relativePath>
+        <version>1.0.1</version>
+    </parent>
+
+    <artifactId>magus-ioun</artifactId>
+    <version>1.0.1</version>
+    <packaging>jar</packaging>
+
+    <name>Magus Ioun</name>
+    <description>The Ioun webservice bindings for the Wizards of the Coast Character manager.</description>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>nz.co.aetheric</groupId>
+            <artifactId>company-logging</artifactId>
+        </dependency>
+
+    </dependencies>
+    
+</project>
